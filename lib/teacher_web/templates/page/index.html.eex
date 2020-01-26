@@ -1,0 +1,5 @@
+<h2>Hard working app</h2>
+<p>
+  Need to do some work?
+  <%= button "do work", to: Routes.page_path(@conn, :create), id: "worker-btn" %>
+</p>
